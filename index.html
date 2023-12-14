@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+ <div class="sochi">
+            <img src="img/logo-sochi.png"></div>
+        
+        <div class="clarosp">
+            <img src="img/logo-claro-sports.png">
+        </div>
+        
+    <hr class="solid">
+    
+    
+    <head>
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <meta charset="UTF-8" />
+        <title>SOCHI</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap" rel="stylesheet">
+        <script src="script.js"></script>  
+        <link rel="stylesheet" href="sochi.css" />
+              
+        
+    </head>
+    
+    
+    <body>
+        
+         <h1>FALTAN</h1>
+        
+        
+        <p id="countdown"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 30, 2024 24:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+
+
+        
+        
+   <div class="container">
+  
+  <ul class="slider">
+    <li id="slide1">
+      <iframe width="420" height="315"
+src="https://www.youtube.com/embed/gVUs4oFKJmY?si=ODGp3AJT-C4xRDlU">
+</iframe>
+    </li>
+    <li id="slide2">
+      <iframe width="420" height="315"
+src="https://www.youtube.com/embed/gVUs4oFKJmY?si=ODGp3AJT-C4xRDlU">
+</iframe>
+    </li>
+    <li id="slide3">
+     <iframe width="420" height="315"
+src="https://www.youtube.com/embed/gVUs4oFKJmY?si=ODGp3AJT-C4xRDlU">
+</iframe>>
+    </li>
+  </ul>
+  
+     <br>  
+       <br>  
+    <div class="gris">
+        <br>  
+        
+        <h2>CLARO SPORTS EN SOCHI 2024</h2>
+        
+  <ul class="menu">
+    <li>
+      <a href="#slide1"> <img src="img/team-latam.png"></a>
+        <br>  
+        <br>  
+        <br>  
+        <h5>TEAM LATAM</h5>
+    </li>
+    <li>
+      <a href="#slide2"><img src="img/travel-meets-fashion.png"></a>
+        <br>  
+        <br>  
+        <br>  
+         <h5>TRAVEL MEETS FASHION</h5>
+    </li>
+     <li>
+      <a href="#slide3"><img src="img/velocidad-riesgo.png"></a>
+         <br>  
+         <br>  
+         <br>  
+         <h5>VELOCIDAD y RIESGO</h5>
+    </li>
+       <li>
+      <a href="#slide3"><img src="img/experiencia.png"></a>
+           <br>  
+           <br>  
+           <br>  
+           <h5>EXPERIENCIA MULTIMEDIA</h5>
+    </li>
+  </ul>
+        
+ </div>
+  
+</div>
+        
+     
+        
+    </body>
+    
+         <br>  
+           <br>  
+    
+     <div class="aviso">
+          <h5>Aviso de privacidad/Contacto</h5></div>
+        <div class="logo">
+            <img src="img/logo-sochi.png"></div>
+       <div class="social">
+           <br>  
+           <img src="img/mobli-icon.png">
+           <img src="img/mobli-icon.png">
+           <img src="img/mobli-icon.png">
+           <img src="img/mobli-icon.png">
+    </div>
+       
+           
+    
+</html>
